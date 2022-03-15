@@ -1,0 +1,48 @@
+:root {
+    --font: font-family: 'Open Sans', sans-serif;
+    --secondFont: font-family: 'Merriweather', serif;
+
+    --titleColor: #393E41;
+    --subColor: #D3D0CB;
+    --bckColor: #E7E5DF;
+    --higlightColor: #44BBA4;
+    --formsColor: #E7BB41;
+}
+
+/* Global Config*/
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;    
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 16px;
+    font-family: var(--font);
+    background-color: var(--bckColor);
+}
+
+.no-padding{
+    padding:0;
+}
+
+.no-margin{
+    margin:0;
+}
+
+a{
+    text-decoration: none;
+    color: var(--titleColor);
+}
+
+li{
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: var(--titleColor);
+    font-weight: bold;
+}
